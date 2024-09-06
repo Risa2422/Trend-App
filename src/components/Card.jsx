@@ -43,21 +43,19 @@ const Card = ({ url, showType }) => {
           <div className="card-body" key={element.id}>
             <div className="show-image">
               <img
-                src={`https://image.tmdb.org/t/p/w500/${element.poster_path}`} // もし画像の上部を表示させたい場合は背景画像にするしかない？
+                src={`https://image.tmdb.org/t/p/w500/${element.poster_path}`}
                 alt=""
               />
             </div>
             <div className="show-details">
-              {showType === "movie" ? ( // なぜフラグメントで囲む必要がある？
+              {showType === "movie" ? (
                 <>
-                  {/* <p>movie</p> */}
                   <h3 className="show-name">
                     {element.original_title || "No Title Movie"}
                   </h3>
                 </>
               ) : (
                 <>
-                  {/* <p>tv</p> */}
                   <h3 className="show-name">{element.name || "No Title TV"}</h3>
                 </>
               )}

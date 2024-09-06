@@ -33,13 +33,11 @@ const Nav = ({ showType, setShowType }) => {
         </li>
       </ul>
       <div className="screen-mode">
-        {/* <div className="icon"> */}
-          <FontAwesomeIcon
-            icon={isDarkMode ? faMoon : faSun}
-            className="mode-icon"
-            onClick={updateMode}
-          />
-        {/* </div> */}
+        <FontAwesomeIcon
+          icon={isDarkMode ? faMoon : faSun}
+          className="mode-icon"
+          onClick={updateMode}
+        />
       </div>
     </div>
   );
