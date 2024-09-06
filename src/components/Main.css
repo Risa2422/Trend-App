@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&display=swap");
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 35px 20px;
+}
+
+.card-content h2 {
+  margin-left: 10px;
+  font-size: 35px;
+  font-family: "Roboto Slab", serif;
+  color: rgb(33, 31, 31);
+}
+
+.card-content.dark-mode h2 {
+  color: rgb(234, 230, 230);
+}
+
+.first-card {
+  padding-top: 30px;
+}
+
+.first-card h2 {
+  padding-top: 40px;
+}
+
+.card-content .desctiption-type {
+  margin: 5px 0 5px 10px;
+  color: rgb(66, 65, 67);
+}
+
+.card-content.dark-mode .desctiption-type {
+  color: rgb(200, 199, 201);
+}

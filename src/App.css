@@ -1,0 +1,7 @@
+.container {
+  background-color: #f4ebd5;
+}
+
+.container.dark-mode {
+  background-color: #2d3b43;
+}
